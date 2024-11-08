@@ -1,2 +1,2 @@
-# behealthy
+# behealthy.ru
 ИИ-терапевт в Вашем телефоне
