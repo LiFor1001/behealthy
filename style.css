@@ -1,0 +1,346 @@
+@keyframes typing { 
+
+    from { width: 0 } 
+    
+    to { width: 100% } 
+    
+    }
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "TenorSans";
+    src: url(/fonts/Tenor_Sans/TenorSans-Regular.ttf);
+    font-weight: 400;
+}
+ /* @media screen and (min-width:500px) {
+    html {
+        font-size: 5px;
+    }
+}@media screen and (min-width:600px) {
+    html {
+        font-size: 6px;
+    }
+} */
+@media screen and (min-width:700px) {
+    html {
+        font-size: 7px;
+    }
+} 
+@media screen and (max-width:700px) {
+    html {
+        font-size: 7px;
+    }
+    
+    main {
+        display: block;
+    }
+}
+@media screen and (min-width:800px) {
+    html {
+        font-size: 8px;
+    }
+}
+@media screen and (min-width:900px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    html {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:1100px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:1300px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:1400px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    html {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width:1700px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1800px) {
+    html {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width:1900px) {
+    html {
+        font-size: 20px;
+    }
+} 
+@media screen and (min-width:2000px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width:3000px) {
+    html {
+        font-size: 42px;
+    }
+}
+@media screen and (min-width:4000px) {
+    html {
+        font-size: 56px;
+    }
+}
+@media screen and (min-width:5000px) {
+    html {
+        font-size: 60px;
+    }
+}
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+a:hover  {
+    cursor: pointer;
+    text-decoration: none;
+}
+aside, nav, footer, header, section, main {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+    
+}
+li {
+    list-style-type: none;
+    margin-right: 0.5rem;
+}
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+/*  */
+body{ 
+    background: #1F1F1F;
+    font-family: "Montserrat";
+}
+.wrapper {
+    margin: 2rem 6rem 6rem 6rem;
+}
+.nav {
+     margin-bottom: 5rem;
+}
+menu { 
+    display: flex;
+    flex-flow: row wrap;
+    font-family: "TenorSans";
+    color: #ffffff;
+}
+
+
+#menu_icon {
+    width: 3rem;
+    height: 3rem;
+}
+.contacts { 
+    display: flex;
+}
+#logotype {
+    font-family: "TenorSans";
+    margin-right:1.5rem;
+    font-size: 1.5rem;
+}
+.righter{
+    margin-left: auto;
+}
+
+.menu_first {
+    margin-right: 1rem;
+}
+.menu_icon {
+    margin-top: -0.35rem;
+    position: relative;
+	box-sizing: border-box;
+	transition: all 350ms ease; 
+    background: #5ecf85;
+    border-radius: 50%;
+}
+.menu_icon:hover {
+    background: #29593a;
+    border-radius: 50%;
+}
+.header_main_h1 {
+    font-family: "TenorSans";
+    font-weight: 300;
+    font-size: 4rem;
+    
+}
+.header_main_h2 {
+    font-family: "Montserrat";
+    margin-top: 1rem;
+    margin-left: 9rem;
+    font-size: 1.75rem;
+}
+.main_info { 
+    color: #ffffff;
+    width: 40rem;
+}
+.header_main_info {
+   
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    overflow: hidden; 
+    white-space: nowrap; 
+    width: 0; 
+    animation: typing; 
+    animation-duration: 2.5s; 
+    animation-timing-function: steps(30, end); animation-fill-mode: forwards; overflow: hidden; 
+    white-space: nowrap; 
+    width: 0;
+    animation: typing; 
+    animation-duration: 2.5s; 
+    animation-timing-function: steps(30, end); animation-fill-mode: forwards; 
+
+}
+.contSeen {
+    display: inline-block; 
+}
+
+.buttons {
+    margin-top: 5rem;
+    display: flex;   
+    font-family: "Montserrat";
+}
+.getHelp {
+    margin-right: 1rem;
+    padding: 1rem 6rem;
+    background: #5ecf85;
+    border-radius: 1rem;
+    color: #313030;
+    
+}
+.getHelp:hover {
+    background: #29593a;
+}
+button:hover {
+	background: rgba(0,0,0,0);
+	/* color: #3a7999; */
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+button {
+    position: relative;
+	box-sizing: border-box;
+	transition: all 350ms ease; 
+}
+.getSubscribe {
+    border-radius: 1.5rem;
+    padding: 1rem 7rem;
+    background: rgb(red, green, blue,100%);
+    border-style:solid ;
+    border-color: #5ecf85;
+    color: #5ecf85;
+}
+.getSubscribe:hover{
+    background: #29593a;
+    color: #313030;
+
+    
+}
+.surgeon_image {
+    margin-top: 5rem;
+    width: 32rem;
+}
+.main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#surgeon{
+    border-radius: 50%;
+}
+
+.first {
+    background: #313030;
+}
